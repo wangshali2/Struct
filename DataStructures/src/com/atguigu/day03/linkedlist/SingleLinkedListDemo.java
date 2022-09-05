@@ -1,4 +1,4 @@
-package com.atguigu.linkedlist;
+package com.atguigu.day03.linkedlist;
 
 import java.util.Stack;
 
@@ -26,12 +26,12 @@ public class SingleLinkedListDemo {
 		System.out.println("原来链表的情况~~");
 		singleLinkedList.list();
 		
-//		System.out.println("反转单链表~~");
-//		reversetList(singleLinkedList.getHead());
-//		singleLinkedList.list();
+		System.out.println("反转单链表~~");
+		reversetList(singleLinkedList.getHead());
+		singleLinkedList.list();
 		
-		System.out.println("测试逆序打印单链表, 没有改变链表的结构~~");
-		reversePrint(singleLinkedList.getHead());
+	//	System.out.println("测试逆序打印单链表, 没有改变链表的结构~~");
+	//	reversePrint(singleLinkedList.getHead());
 		
 /*		
 		//加入按照编号的顺序
@@ -177,7 +177,7 @@ class SingleLinkedList {
 	//2. 将最后这个节点的next 指向 新的节点
 	public void add(HeroNode heroNode) {
 		
-		//因为head节点不能动，因此我们需要一个辅助遍历 temp
+		//要添加到最后一个节点后面，先找到最后一个节点
 		HeroNode temp = head;
 		//遍历链表，找到最后
 		while(true) {

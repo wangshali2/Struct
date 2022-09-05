@@ -1,7 +1,5 @@
 package com.atguigu.search;
 
-import java.util.Arrays;
-
 public class InsertValueSearch {
 
 	public static void main(String[] args) {

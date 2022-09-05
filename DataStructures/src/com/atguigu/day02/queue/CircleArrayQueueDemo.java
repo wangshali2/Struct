@@ -1,4 +1,4 @@
-package com.atguigu.queue;
+package com.atguigu.day02.queue;
 
 import java.util.Scanner;
 

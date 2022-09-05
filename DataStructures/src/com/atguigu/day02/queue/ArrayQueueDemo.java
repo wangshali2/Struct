@@ -1,4 +1,4 @@
-package com.atguigu.queue;
+package com.atguigu.day02.queue;
 
 import java.util.Scanner;
 
@@ -96,7 +96,7 @@ class ArrayQueue {
 		arr[rear] = n;
 	}
 
-	// 获取队列的数据, 出队列
+	// 获取队列的数据, 出队列，先进先出，先从头取
 	public int getQueue() {
 		// 判断队列是否空
 		if (isEmpty()) {
